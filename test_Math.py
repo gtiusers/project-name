@@ -6,7 +6,7 @@ class TestMath(unittest.TestCase):
         print("start test")
 
     def test_add(self):
-        j=Math(5,10)
+        j=Math(7,10)
         self.assertEqual(j.add(),15)
         #self.assertEqual(j.add(),12)
 
